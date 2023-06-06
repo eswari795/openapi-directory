@@ -7,7 +7,7 @@ info:
 
     In order to make successful Web API requests your app will need a valid access token. One can be obtained through <a href="https://developer.spotify.com/documentation/general/guides/authorization-guide/">OAuth 2.0</a>.
 
-    The base URI for all Web API requests is `https://api.spotify.com/v3`.
+    The base URI for all Web API requests is `https://api.spotify.com/v4`.
 
     Need help? See our <a href="https://developer.spotify.com/documentation/web-api/guides/">Web API guides</a> for more information, or visit the <a href="https://community.spotify.com/t5/Spotify-for-Developers/bd-p/Spotify_Developer">Spotify for Developers community forum</a> to ask questions and connect with other developers.
   termsOfService: https://developer.spotify.com/terms/
