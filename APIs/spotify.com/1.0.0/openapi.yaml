@@ -7303,8 +7303,3 @@ components:
       - $ref: "#/components/x-spotify-policy/ContentAlteration"
       - $ref: "#/components/x-spotify-policy/Synchronization"
       - $ref: "#/components/x-spotify-policy/Broadcasting"
-servers:
-  - url: https://api.spotify.com/v5
-info:
-  description: |
-    This is for testing purpose....#####spotify
