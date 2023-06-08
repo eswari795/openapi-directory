@@ -1,6 +1,4 @@
 openapi: 3.0.3
-servers:
-  - url: https://api.spotify.com/v4
 info:
   description: |
     You can use Spotify's Web API to discover music and podcasts, manage your Spotify library, control audio playback, and much more. Browse our available Web API endpoints using the sidebar at left, or via the navigation bar on top of this page on smaller screens.
@@ -24,6 +22,8 @@ info:
   x-providerName: spotify.com
 paths:
   /albums:
+    servers:
+      - url: https://api.spotify.com/v4
     get:
       description: |
         Get Spotify catalog information for multiple albums identified by their Spotify IDs.
@@ -53,6 +53,8 @@ paths:
     x-spotify-docs-category: Albums
     x-spotify-docs-display-name: several-albums
   "/albums/{id}":
+    servers:
+      - url: https://api.spotify.com/v5
     get:
       description: |
         Get Spotify catalog information for a single album.
